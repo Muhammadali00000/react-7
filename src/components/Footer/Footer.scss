@@ -1,0 +1,25 @@
+.logo{
+    width: 100px;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 50px;   
+    padding: 20px;
+    width: 100%;
+    color: white;
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+    h1{
+        font-size: 20px;
+        width: 400px;
+    }@media (max-width: 600px) {
+        
+        h1{
+          max-width: 100%;
+          padding: 10px;
+        font-size: 20px;
+      }
+    }
+}
